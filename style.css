@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+
+/*navbar*/
+.navbar-container {
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-name {
+    font: size 35px;
+    color: darkred;
+}
+
+.navbar-name h1 span {
+    color: black;
+}
+
+.navbar-menu ul {
+    list-style-type: none;
+}
+
+.navbar-menu ul li a {
+    color: darkred;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.navbar-menu ul li a:hover {
+    color: black;
+    border-bottom: 2px darkred solid;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+/*body*/
+.body-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px 500px;
+}
+
+.body-name h1 {
+    font-size: 40px;
+    color: darkred;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.body-p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.body-btn {
+    color: darkred;
+    background-color: black;
+    padding: 5px;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    margin: 0 170px;
+}
+
+.body-btn:hover {
+    color: black;
+    background-color: darkred;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/*table*/
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 400px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+th {
+    background-color: black;
+    color: darkred;
+    border: 2px solid darkred;
+    padding: 3px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+td,th {
+    border: 2px solid darkred;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+td{
+    background-color: darkred;
+}
+th:hover {
+    background-color: darkred;
+    color: black;
+    transition: 0.3s;
+}
+
+td:hover {
+    color: darkred;
+    background-color: black;
+}
+/*form*/
+.form-container{
+    display:flex ;
+    justify-content :center;
+    align-items :center;
+    height:100vh;
+}
+.form-area{
+    width:60%;
+    color: darkred;
+    font-size: 20px;
+    font-weight: bold;
+}
+.submit-btn{
+    color: darkred;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 3px;
+    font-size: 18px;
+}
+.submit-btn:hover{
+    color: black;
+    background-color: darkred;
+}
+/*Footer*/
+.footer {
+    background-color: gray;
+    color: darkred;
+    height: 70px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* media*/
+  @media (max-width: 800px) {
+    .header .nav {
+      display: none;
+    }
+  }
